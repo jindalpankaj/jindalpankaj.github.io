@@ -1,0 +1,110 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic website of Pankaj Jindal, Doctoral candidate in Operations Management.">
+  <title>Pankaj Jindal — Home</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    .intro {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+
+    .intro-text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .profile-photo {
+      width: 180px;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 600px) {
+      .intro {
+        flex-direction: column;
+      }
+
+      .profile-photo {
+        width: 160px;
+        height: 213px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container site-header">
+      <a class="site-name" href="index.html">Pankaj Jindal</a>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="intro" aria-label="Introduction">
+
+      <div class="intro-text">
+        <h1>Pankaj Jindal</h1>
+
+        <p class="subtitle">
+          Doctoral Candidate in Operations Management<br>
+          Indian School of Business
+        </p>
+
+        <p>
+          I am a doctoral candidate in Operations Management at
+          Indian School of Business. My research focuses on analytical and
+          computational approaches to operational decision-making.
+        </p>
+
+        <p>
+          My interests include stochastic modeling, optimization,
+          and decision-making under uncertainty.
+        </p>
+      </div>
+
+      <img
+        class="profile-photo"
+        src="images/Pankaj_Jindal_Portrait.png"
+        alt="Portrait of Pankaj Jindal"
+        width="400"
+        height="500"
+      >
+
+    </section>
+
+    <h2>Contact</h2>
+
+    <p>
+      Email:
+      <a href="mailto:pankaj_jindal@isb.edu">
+        pankaj_jindal@isb.edu
+      </a>
+    </p>
+
+    <p>
+      <a href="cv.pdf">Curriculum vitae (PDF)</a>
+      ·
+      <a href="research.html">Research</a>
+    </p>
+  </main>
+
+  <footer>
+    <div class="container">© Pankaj Jindal</div>
+  </footer>
+</body>
+</html>
