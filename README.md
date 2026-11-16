@@ -1,1 +1,0 @@
-# jindalpankaj.github.io
